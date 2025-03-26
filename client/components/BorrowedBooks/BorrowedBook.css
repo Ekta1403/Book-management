@@ -1,0 +1,75 @@
+/* Styling for the entire container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Heading style */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  /* Input Section */
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .input-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-section input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 0.375rem;
+  }
+  
+  .input-section button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 0.375rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input-section button:disabled {
+    background-color: #6c757d;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .table td {
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Error message styling */
+  .alert {
+    margin-top: 20px;
+  }
+  
